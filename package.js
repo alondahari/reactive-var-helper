@@ -12,12 +12,12 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
-  api.use(['templating', 'underscore']);
+  api.use(['templating', 'underscore', 'reactive-var']);
   api.addFiles('reactive-var-helper.js', 'client');
 });
 
 Package.onTest(function(api) {
-  api.use('ecmascript');
+  api.use(['templating', 'underscore', 'reactive-var']);
   api.use('tinytest');
   api.use('jazzdragon:reactive-var-helper');
   api.addFiles('reactive-var-helper-tests.js', 'client');

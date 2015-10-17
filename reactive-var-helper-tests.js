@@ -1,5 +1,3 @@
-// Write your tests here!
-// Here is an example.
-Tinytest.add('example', function (test) {
-  test.equal(true, true);
+Tinytest.add('reactiveVars is on the Template prototype', function (test) {
+  test.equal(typeof Template.test.reactiveVars, 'function');
 });
