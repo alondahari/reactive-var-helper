@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jazzdragon:reactive-var-helper',
-  version: '0.0.1',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'A helper to nicely organize your reactive vars',
   // URL to the Git repository containing the source code for this package.
