@@ -42,10 +42,4 @@ Template.prototype.reactiveVars = function(reactiveVars) {
 
   });
 
-
-  //Add all the helpers to the template
-  if (typeof helpersObject !== "undefined") {
-    Template[templateName].helpers(helpersObject);
-  }
-
 }
